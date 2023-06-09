@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins";
+}
+.header{
+    background:linear-gradient(transparent, rgba(33, 8, 8, 0.877)), url("/images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.bg-red{
+    background-color: #EB2929;
+}
+.text-red{
+    color: #EB2929;
+}
+.text-deep-blue{
+    color: #192F60;
+}
+.text-ash{
+    color: #8C96AB
+}
+.login-btn{
+    background-color: transparent !important;
+    border: none !important;
+}
+.logo{
+    width: 147px;
+    height: 147px;
+    border-radius: 50%;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.search-group{
+    width: 45%;
+    margin-bottom: 81px;
+}
+.location-input{
+    width: 35%;
+    height: 60px;
+}
+.search-input{
+    width: 60%;
+    height: 60px;
+}
+.main-content{
+    margin: 48px 113px;
+}
+.main-content h2{
+    font-weight: bolder;
+}
+.menu{
+    height: 160px;
+    width: 360px !important;
+}
+.menu img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+.menu article h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu article p{
+    font-size: 14px;
+}
